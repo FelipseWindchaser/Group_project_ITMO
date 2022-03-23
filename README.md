@@ -43,33 +43,33 @@
 
 1. Находясь в своей ветке, прописать коммит;
 
-git add -A
-git commit -m 'commitname'
+`git add -A`
+`git commit -m 'commitname'`
 
 2. Скачиваем последнюю актуальную версию ветки dev;
 
 - заходим в ветку dev
 
-git checkout dev
+`git checkout dev`
 
 - стягиваем последние изменения к себе в локальный репозиторий;
 
-git pull
+`git pull`
 
 - возвращаемся к себе в ветку;
 
-git checkout dev-'username'
+`git checkout dev-'username'`
 
 - перетаскиваем изменения из dev в свою ветку;
 
-git merge dev
+`git merge dev`
 
 - в случае возникновение конфликта решаем его (разберемся на месте);
 
 - объединяем изменения путем коммита
 
-  git add -A
-  git commit -m 'merge into dev'
+  `git add -A`
+  `git commit -m 'merge into dev'`
 
 3. Все еще находясь в своей ветке делаем git push;
 
