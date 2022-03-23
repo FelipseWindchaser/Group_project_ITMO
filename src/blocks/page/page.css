@@ -1,0 +1,9 @@
+.page {
+  font-family: "Open Sans", sans-serif;
+  background-color: #001337;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
