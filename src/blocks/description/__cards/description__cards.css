@@ -1,0 +1,30 @@
+.description__cards {
+    list-style-type: none;
+    max-width: 1110px;
+    max-height: 450px;
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    gap: 30px;
+    margin: 60px 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__cards {
+        grid-template-columns: repeat(4, 150px);
+        max-width: 690px;
+        max-height: 252px;
+        margin: 40px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description__cards {
+        grid-template-columns: repeat(2, 140px);
+        max-width: 288px;
+        max-height: 456px;
+        margin: 0;
+        gap: 8px;
+    }
+}

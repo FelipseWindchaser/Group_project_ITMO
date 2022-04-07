@@ -4,3 +4,41 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/footer/footer.css);
+
+/* description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__about/description__about.css);
+@import url(../blocks/description/__text/descriptions__text.css);
+@import url(../blocks/description/__bold-text/description__bold-text.css);
+@import url(../blocks/description/__text-moleculer/description__text-moleculer.css);
+@import url(../blocks/description/__moleculer/description__moleculer.css);
+@import url(../blocks/description/__normal-text/description__normal-text.css);
+@import url(../blocks/description/__photo-section/description__photo-section.css);
+@import url(../blocks/description/__photo/description__photo.css);
+@import url(../blocks/description/__photo/_one/description__photo_one.css);
+@import url(../blocks/description/__cards/description__cards.css);
+@import url(../blocks/description/__card/description__card.css);
+@import url(../blocks/description/__card-title/description__card-title.css);
+@import url(../blocks/description/__card-paragraph/description__card-paragraph.css);
+@import url(../blocks/description/__card-icon/description__card-icon.css);
+@import url(../blocks/description/__card-icon/_type/description__card-icon_type_pencil.css);
+@import url(../blocks/description/__card-icon/_type/description__card-icon_type_brain.css);
+@import url(../blocks/description/__card-icon/_type/description__card-icon_type_chip.css);
+@import url(../blocks/description/__card-icon/_type/description__card-icon_type_robot.css);
+@import url(../blocks/description/__card-more-btn/description__card-more-btn.css);
+@import url(../blocks/description/__card-analys/description__card-analys.css);
+@import url(../blocks/description/__card-infrastructure/description__card-infrastructure.css);
+@import url(../blocks/description/__card-cloud/description__card-cloud.css);
+@import url(../blocks/description/__card-qa/description__card-qa.css);
+
+/* description-popup */
+@import url(../blocks/description-popup/description-popup.css);
+@import url(../blocks/description-popup/_opened/description-popup_opened.css);
+@import url(../blocks/description-popup/__container/description-popup__container.css);
+@import url(../blocks/description-popup/__photo/description-popup__photo.css);
+@import url(../blocks/description-popup/__text/description-popup__text.css);
+@import url(../blocks/description-popup/__title/description-popup__title.css);
+@import url(../blocks/description-popup/__paragraph/description-popup__paragraph.css);
+@import url(../blocks/description-popup/__list/description-popup__list.css);
+@import url(../blocks/description-popup/__close-btn/description-popup__close-btn.css);

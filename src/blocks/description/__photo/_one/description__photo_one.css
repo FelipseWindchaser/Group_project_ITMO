@@ -1,0 +1,9 @@
+.description__photo_one {
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__photo_one {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.description__moleculer {
+    background-image: url(../../../images-description/moleculer.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__moleculer {
+        display: none;
+    }
+}

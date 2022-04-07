@@ -1,0 +1,40 @@
+.description-popup__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    margin: 0 0 21.5px;
+    padding: 0;
+}
+
+.description-popup__paragraph:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .description-popup__paragraph {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .description-popup__paragraph:first-of-type {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-popup__paragraph {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+    }
+
+    .description-popup__paragraph:first-of-type {
+        display: none;
+    }
+
+    .description-popup__paragraph:nth-of-type(2n) {
+        display: none;
+    }
+}

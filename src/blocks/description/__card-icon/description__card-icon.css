@@ -1,0 +1,20 @@
+.description__card-icon {
+    margin: 50px auto;
+    border-radius: 36px;
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-icon {
+        margin: 20px auto;
+        width: 40.5px;
+        height: 40.5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description__card-icon {
+        margin: 16px auto;
+    }
+}

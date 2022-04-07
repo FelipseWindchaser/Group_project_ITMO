@@ -1,0 +1,25 @@
+.description__photo {
+    max-width: 264px;
+    max-height: 276px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.description__photo:first-child {
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__photo {
+        max-width: 330px;
+        max-height: 240px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description__photo {
+        width: 288px;
+        height: 180px;
+        border-radius: 5px;
+    }
+}

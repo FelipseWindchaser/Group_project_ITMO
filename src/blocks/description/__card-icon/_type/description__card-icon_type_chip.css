@@ -1,0 +1,11 @@
+.description__card-icon_type_chip {
+    background: center no-repeat url(../../../../images-description/chip.svg);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-icon_type_chip {
+        background: center no-repeat url(../../../../images-description/chip-mini.svg);
+        background-color: #fff;
+    }
+}

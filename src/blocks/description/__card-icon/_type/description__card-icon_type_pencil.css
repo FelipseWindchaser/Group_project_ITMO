@@ -1,0 +1,11 @@
+.description__card-icon_type_pencil {
+    background: center no-repeat url(../../../../images-description/pencil.svg);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-icon_type_pencil {
+        background: center no-repeat url(../../../../images-description/pencil-mini.svg);
+        background-color: #fff;
+    }
+}

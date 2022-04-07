@@ -1,0 +1,11 @@
+.description__card-icon_type_brain {
+    background: center no-repeat url(../../../../images-description/Brain.svg);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-icon_type_brain {
+        background: center no-repeat url(../../../../images-description/Brain-mini.svg);
+        background-color: #fff;
+    }
+}
