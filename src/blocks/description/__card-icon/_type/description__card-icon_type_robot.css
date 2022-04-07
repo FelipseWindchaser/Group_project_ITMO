@@ -1,0 +1,11 @@
+.description__card-icon_type_robot {
+    background: center no-repeat url(../../../../images-description/Robot.svg);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-icon_type_robot {
+        background: center no-repeat url(../../../../images-description/Robot-mini.svg);
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,37 @@
+.description-popup__close-btn {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../images-description/close.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 16.5px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.description-popup__close-btn:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1200px) {
+    .description-popup__close-btn {
+        width: 32px;
+        height: 32px;
+        top: 20.5px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-popup__close-btn {
+        background-image: url(../../../images-description/close-mini.svg);
+        width: 24px;
+        height: 24px;
+        top: 16px;
+        right: 16px;
+    }
+}

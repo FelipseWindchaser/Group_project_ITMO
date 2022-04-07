@@ -1,0 +1,28 @@
+.description__card-more-btn {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #001337;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0;
+}
+
+.description__card-more-btn {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-more-btn {
+        border-radius: 5px;
+        height: 32px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+    }
+}

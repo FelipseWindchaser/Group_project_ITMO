@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>О нас</title>
 </head>
+
 <body class="page">
   <header class="header">
     <nav class="navigation"></nav>
@@ -15,7 +17,61 @@
       <h1>test</h1>
     </section>
     <section class="about-us"></section>
-    <section class="description"></section>
+    <section class="description">
+      <h2 class="description__title">INDUSTRIAL AI RESEARCH LAB</h2>
+      <div class="description__about">
+        <div class="descriptions__text">
+          <p class="description__bold-text">Центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку
+            по направлению «Технологии машинного обучения
+            и когнитивные технологии». </p>
+          <div class="description__text-moleculer">
+            <div class="description__moleculer"></div>
+            <p class="description__normal-text">Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими
+              клиентами,
+              новые решения находят, не задумываясь. Работая таким образом
+              и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.
+            </p>
+          </div>
+        </div>
+        <div class="description__photo-section">
+          <img class="description__photo description__photo_one" src="./images-description/description-img-1.jpg"
+            alt="мужчина за ноутбуком.">
+          <img class="description__photo" src="./images-description/img-description-mini.png"
+            alt="двое мужчин за ноутбуками.">
+        </div>
+      </div>
+      <ul class="description__cards">
+        <li class="description__card description__card-analys">
+          <h3 class="description__card-title">Анализ социальных данных</h3>
+          <div class="description__card-icon description__card-icon_type_pencil"></div>
+          <p class="description__card-paragraph">Направление включает в себя исследования и разработки технологий МО и
+            КТ</p>
+          <button type="button" aria-label="узнать подробнее." class="description__card-more-btn">Подробнее</button>
+        </li>
+        <li class="description__card description__card-infrastructure">
+          <h3 class="description__card-title">Инфраструктура больших данных</h3>
+          <div class="description__card-icon description__card-icon_type_brain"></div>
+          <p class="description__card-paragraph">Направление включает в себя исследования и разработки технологий МО и
+            КТ</p>
+          <button type="button" aria-label="узнать подробнее." class="description__card-more-btn">Подробнее</button>
+        </li>
+        <li class="description__card description__card-cloud">
+          <h3 class="description__card-title">Облачные<br /> вычисления</h3>
+          <div class="description__card-icon description__card-icon_type_chip"></div>
+          <p class="description__card-paragraph">Направление включает в себя исследования и разработки технологий МО и
+            КТ</p>
+          <button type="button" aria-label="узнать подробнее." class="description__card-more-btn">Подробнее</button>
+        </li>
+        <li class="description__card description__card-qa">
+          <h3 class="description__card-title">QA<br /> системы</h3>
+          <div class="description__card-icon description__card-icon_type_robot"></div>
+          <p class="description__card-paragraph">Направление включает в себя исследования и разработки технологий МО и
+            КТ</p>
+          <button type="button" aria-label="узнать подробнее." class="description__card-more-btn">Подробнее</button>
+        </li>
+      </ul>
+    </section>
     <section class="projects"></section>
     <section class="education"></section>
     <section class="publications"></section>
@@ -24,5 +80,37 @@
     <section class="contacts"></section>
   </main>
   <footer class="footer"></footer>
+
+  <article class="description-popup">
+    <div class="description-popup__container">
+      <img class="description-popup__photo" src="./images-description/popup-img.png" alt="команда разработчиков.">
+      <div class="description-popup__text">
+        <h2 class="description-popup__title">Анализ социальных данных</h2>
+        <p class="description-popup__paragraph">Учебные лаборатории оснащены современным компьютерным оборудованием,
+          техническими средствами защиты информации, программными и программно-аппаратными комплексами средств защиты,
+          разработанными ведущими производителями: Positive Technologies, Infotecs, SearchInform, «Лаборатория ППШ» и
+          других вендоров. Некоторые из лабораторных установок являются уникальными по своим исследовательским задачам.
+        </p>
+        <p class="description-popup__paragraph">Начиная с первого курса бакалавриата, студенты погружаются в область их
+          будущей профессиональной деятельности, активно развивают навыки программирования, исследования защищенности
+          информации в независимости от формы ее
+          представления, проектирования комплексных интегрированных систем защиты информации, проходят различные виды
+          практик.</p>
+        <p class="description-popup__paragraph">В состав факультета входит ряд научных лабораторий и центров, в которых
+          проводятся исследования:
+        </p>
+        <ul class="description-popup__list">
+          <li>безопасные киберфизические системы;</li>
+          <li>разработка средств защиты информации;</li>
+          <li>функциональная безопасность беспилотных транспортных средств;</li>
+          <li>теория информации и кодирования;</li>
+          <li>информационные процессы в Интернет и безопасность виртуального пространства;</li>
+          <li>интеллектуальные защищенные системы мультиагентного взаимодействия и пр.</li>
+        </ul>
+      </div>
+      <button class="description-popup__close-btn" type="button" aria-label="закрыть попап."></button>
+    </div>
+  </article>
 </body>
+
 </html>

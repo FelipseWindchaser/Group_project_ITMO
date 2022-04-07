@@ -1,0 +1,4 @@
+.description__photo-section {
+    display: flex;
+    flex-direction: row;
+}

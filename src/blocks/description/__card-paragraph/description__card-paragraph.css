@@ -1,0 +1,18 @@
+.description__card-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-paragraph {
+        font-size: 10px;
+        line-height: 14px;
+        margin: 0 0 16px;
+    }
+}

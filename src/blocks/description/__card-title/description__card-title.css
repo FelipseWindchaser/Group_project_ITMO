@@ -1,0 +1,23 @@
+.description__card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .description__card-title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description__card-title {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
