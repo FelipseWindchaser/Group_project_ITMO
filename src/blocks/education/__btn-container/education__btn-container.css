@@ -1,0 +1,25 @@
+.education__btn-container {
+    max-width: 540px;
+    background-color: #009FAC;
+    border: 1px solid #E0F0FF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__btn-container {
+        max-width: 450px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .education__btn-container {
+        max-width: 288px;
+        margin-top: 16px;
+        max-height: 40px;
+    }
+}

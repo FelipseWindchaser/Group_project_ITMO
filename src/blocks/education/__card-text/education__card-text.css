@@ -1,0 +1,18 @@
+.education__card-text {
+    max-width: 635px;
+    margin-right: 29px;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__card-text {
+        max-width: 340px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .education__card-text {
+        max-width: 100%;
+        margin: 0;
+    }
+}

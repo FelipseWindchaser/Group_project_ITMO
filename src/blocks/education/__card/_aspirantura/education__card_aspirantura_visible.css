@@ -1,0 +1,4 @@
+.education__card_aspirantura_visible {
+    display: flex;
+    z-index: 10;
+}

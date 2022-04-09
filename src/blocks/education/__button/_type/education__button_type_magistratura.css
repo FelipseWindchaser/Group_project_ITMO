@@ -1,0 +1,22 @@
+.education__button_type_magistratura {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__button_type_magistratura {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .education__button_type_magistratura {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

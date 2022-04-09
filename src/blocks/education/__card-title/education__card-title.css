@@ -1,0 +1,17 @@
+.education__card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__card-title {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 0 15px;
+    }
+}

@@ -10,6 +10,15 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1280px) {
+    .description__cards {
+        grid-template-columns: repeat(4, 230px);
+        max-width: 1000px;
+        max-height: 352px;
+        margin: 40px 0 0;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .description__cards {
         grid-template-columns: repeat(4, 150px);

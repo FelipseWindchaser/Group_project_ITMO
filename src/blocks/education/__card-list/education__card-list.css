@@ -1,0 +1,18 @@
+.education__card-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+    margin: 0 0 25px;
+    padding: 0 0 0 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__card-list {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 0 15px;
+        padding: 0 0 0 15px;
+    }
+}

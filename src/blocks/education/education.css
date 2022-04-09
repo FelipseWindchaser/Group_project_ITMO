@@ -1,26 +1,26 @@
-.description {
-    max-width: 1146px;
-    max-height: 1074px;
-    background-color: #E0F0FF;
-    padding: 80px 165px 80px 129px;
-    color: #000D26;
+.education {
+    max-width: 1169px;
+    max-height: 830px;
+    padding: 80px 135px;
+    background-color: #009FAC;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
-    .description {
+    .education {
         max-width: 690px;
-        max-height: 595px;
+        max-height: 599px;
         padding: 60px 39px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .description {
+    .education {
         max-width: 288px;
-        max-height: 914px;
+        max-height: 806px;
         padding: 40px 16px;
     }
 }
