@@ -1,0 +1,28 @@
+.education__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+    margin: 30px auto 60px;
+    padding: 0;
+    max-width: 920px;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__text {
+        font-size: 14px;
+        line-height: 1.43;
+        max-width: 690px;
+        margin: 30px 0 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .education__text {
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 20px 0;
+    }
+}

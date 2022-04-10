@@ -42,3 +42,22 @@
 @import url(../blocks/description-popup/__paragraph/description-popup__paragraph.css);
 @import url(../blocks/description-popup/__list/description-popup__list.css);
 @import url(../blocks/description-popup/__close-btn/description-popup__close-btn.css);
+
+/* education */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__text/education__text.css);
+@import url(../blocks/education/__card/education__card.css);
+@import url(../blocks/education/__cards-container/education__cards-container.css);
+@import url(../blocks/education/__card/_aspirantura/education__card_aspirantura.css);
+@import url(../blocks/education/__card/_aspirantura/education__card_aspirantura_visible.css);
+@import url(../blocks/education/__card-text/education__card-text.css);
+@import url(../blocks/education/__card-title/education__card-title.css);
+@import url(../blocks/education/__card-list/education__card-list.css);
+@import url(../blocks/education/__card-link/education__card-link.css);
+@import url(../blocks/education/__card-photo/education__card-photo.css);
+@import url(../blocks/education/__btn-container/education__btn-container.css);
+@import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__button/_type/education__button_type_aspirantura.css);
+@import url(../blocks/education/__button/_type/education__button_type_magistratura.css);
+@import url(../blocks/education/__button/_type/education__button_type_active.css);

@@ -26,3 +26,22 @@ moreBtns.forEach(function (btn) {
     });
 });
 closePopupDescription(popupDescription);
+
+// education
+const magistrBtn = document.querySelector('.education__button_type_magistratura');
+const aspirantBtn = document.querySelector('.education__button_type_aspirantura');
+const activeBtn = 'education__button_type_active';
+const cardAspirant = document.querySelector('.education__card_aspirantura');
+const cardAspirantVisible = 'education__card_aspirantura_visible';
+
+aspirantBtn.addEventListener('click', () => {
+    magistrBtn.classList.remove(activeBtn);
+    aspirantBtn.classList.add(activeBtn);
+    cardAspirant.classList.add(cardAspirantVisible);
+});
+
+magistrBtn.addEventListener('click', () => {
+    aspirantBtn.classList.remove(activeBtn);
+    magistrBtn.classList.add(activeBtn);
+    cardAspirant.classList.remove(cardAspirantVisible);
+});

@@ -4,9 +4,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 24px;
+    max-width: 24px;
     height: 24px;
-    margin-right: 12px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px) {

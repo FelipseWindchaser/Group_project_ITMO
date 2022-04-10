@@ -8,3 +8,16 @@
     background-size: cover;
     background-color: #009FAC;
 }
+
+@media screen and (max-width: 767px) {
+    .description__card-qa {
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .description__card-qa:hover {
+        background-image: none;
+        background-size: cover;
+        background-color: #009FAC;
+    }
+}

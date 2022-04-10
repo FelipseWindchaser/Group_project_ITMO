@@ -1,0 +1,25 @@
+.education__card {
+    max-width: 1109px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: #000D26;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .education__card {
+        max-width: 690px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .education__card {
+        max-width: 100%;
+        padding: 16px;
+        flex-direction: column-reverse;
+    }
+}

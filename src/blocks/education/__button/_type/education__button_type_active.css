@@ -1,0 +1,7 @@
+.education__button_type_active {
+    color: #000D26;
+    background-color: #E0F0FF;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: default;
+}
